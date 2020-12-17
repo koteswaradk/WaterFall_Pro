@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <ImageView
+    android:id="@+id/topimage"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_image"
+    android:layout_alignParentTop="true"
+    />
+    
+    
+    <ImageButton
+      android:id="@+id/onoff_clockthemes"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/on_image"
+      android:layout_alignParentLeft="true"
+      android:layout_margin="6dp"
+      />
+    
+    <ImageButton
+      android:id="@+id/done_clockthemes"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/done_bt"
+      android:layout_alignParentRight="true"
+      android:layout_margin="6dp"
+      />
+      
+      <GridView
+          android:id="@+id/grid"
+          android:background="@drawable/select_clock_bg"  
+          android:drawSelectorOnTop="true"  
+          android:listSelector="@drawable/tick_mark"
+          android:layout_below="@id/topimage"      
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:horizontalSpacing="05dp"
+          android:verticalSpacing="05dp"
+          android:numColumns="2"
+          android:gravity="center_vertical"          
+          android:stretchMode="columnWidth"                  
+          android:smoothScrollbar="true"         
+          android:layout_alignParentBottom="true"
+          android:scrollbars="none"
+          
+          />
+</RelativeLayout>

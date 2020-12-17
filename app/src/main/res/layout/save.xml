@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  
+  <RelativeLayout
+    android:id="@+id/binder"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:layout_margin="0dp"
+    >
+  
+  <ImageView
+    android:id="@+id/text_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/text_bg_4_hvr_normal"
+    />
+    
+    <TextView
+      android:text="filename"
+      android:id="@+id/filename_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"      
+      android:layout_centerInParent="true"
+      android:textStyle="bold"
+      android:textSize="20sp"
+      android:textColor="#ff9000"
+      />
+      
+      <TextView
+      android:id="@+id/header_text"
+      android:text=""      
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"      
+      android:layout_centerInParent="true"
+      android:textStyle="bold"
+      android:textSize="20sp"
+      android:textColor="#ff9000"
+      android:layout_alignParentLeft="true"
+      android:layout_margin="5dp"
+      />
+   </RelativeLayout>
+  
+</LinearLayout>

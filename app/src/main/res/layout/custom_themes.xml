@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    
+    <FrameLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+			
+    	<ImageView
+    	    android:id="@+id/themes_image" 
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    	    />
+    	
+    	<!--<ImageView
+    	    android:id="@+id/ticmark_image" 
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="right|bottom"
+    		android:layout_margin="10dp"
+    	    />
+    	
+   	-->
+   	
+   		<CheckBox 
+   		    android:id="@+id/checkbox"
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="right|bottom"
+    		android:layout_margin="15dp"
+   		    />
+   		
+    </FrameLayout>    
+
+</LinearLayout>

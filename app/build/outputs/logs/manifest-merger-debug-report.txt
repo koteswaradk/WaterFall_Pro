@@ -1,0 +1,287 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:2:1-85:12
+	package
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:3:7-35
+		INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:6:7-32
+		INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:5:7-30
+		INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:4:7-37
+application
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:7:5-69:19
+	android:label
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:7:48-81
+	android:icon
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:7:18-47
+activity#com.icrg.waterfall.SplashScreen
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:9:9-15:20
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:10:53-89
+	android:label
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:10:19-52
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:9:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:11:13-14:29
+action#android.intent.action.MAIN
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:12:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:13:17-77
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:13:27-74
+activity#com.icrg.waterfall.FeelIt
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:17:9-90
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:17:42-78
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:17:19-41
+activity#com.icrg.waterfall.LoadingScreen
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:18:9-97
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:18:49-85
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:18:19-48
+activity#com.icrg.waterfall.Help
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:19:9-88
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:19:40-76
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:19:19-39
+activity#com.icrg.waterfall.FullVersion
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:20:9-95
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:20:47-83
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:20:19-46
+activity#com.icrg.waterfall.Settings
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:21:9-92
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:21:44-80
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:21:19-43
+activity#com.icrg.waterfall.MoreApps
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:22:9-92
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:22:44-80
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:22:19-43
+activity#com.icrg.waterfall.ClockThemes
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:23:9-95
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:23:47-83
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:23:19-46
+activity#com.icrg.waterfall.Save
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:24:9-88
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:24:40-76
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:24:19-39
+service#com.icrg.waterfall.DefaultSound
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:25:9-56
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:25:18-45
+service#com.icrg.waterfall.BinauralService
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:26:9-59
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:26:18-48
+activity#com.icrg.waterfall.MainPage
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:28:9-33:17
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:28:44-80
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:28:19-43
+intent-filter#action:name:com.droidnova.android.splashscreen.MyAppWaterfall+category:name:android.intent.category.DEFAULT
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:29:10-32:23
+action#com.droidnova.android.splashscreen.MyAppWaterfall
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:30:11-86
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:30:19-83
+category#android.intent.category.DEFAULT
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:31:11-70
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:31:21-67
+provider#com.icrg.waterfall.alarm.AlarmProvider
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:35:6-119
+	android:authorities
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:35:70-116
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:35:16-69
+provider#com.icrg.waterfall.SaveProvider
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:36:6-106
+	android:authorities
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:36:63-103
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:36:16-62
+activity#com.icrg.waterfall.alarm.AlarmClock
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:37:6-116
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:37:67-103
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:37:16-66
+activity#com.icrg.waterfall.alarm.AnalogClockTime
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:38:6-120
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:38:72-108
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:38:16-71
+activity#com.icrg.waterfall.alarm.SettingsActivity
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:39:6-144
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:39:106-142
+	android:label
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:39:73-105
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:39:16-72
+activity#com.icrg.waterfall.alarm.SetAlarm
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:41:9-141
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:41:103-139
+	android:label
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:41:68-101
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:41:19-67
+activity#com.icrg.waterfall.alarm.AlarmAlert
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:42:9-238
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:42:199-235
+	android:excludeFromRecents
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:42:70-103
+	android:launchMode
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:42:139-174
+	android:theme
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:42:104-138
+	android:taskAffinity
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:42:175-198
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:42:19-69
+activity#com.icrg.waterfall.alarm.AlarmAlertFullScreen
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:44:9-214
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:44:176-212
+	android:excludeFromRecents
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:44:80-113
+	android:launchMode
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:44:115-150
+	android:taskAffinity
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:44:151-174
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:44:19-79
+activity#com.icrg.waterfall.alarm.ClockPicker
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:45:9-109
+	android:screenOrientation
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:45:71-107
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:45:19-70
+receiver#com.icrg.waterfall.alarm.AlarmReceiver
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:46:9-52:20
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:46:19-72
+intent-filter#action:name:alarm_killed+action:name:cancel_snooze+action:name:com.icrg.waterfall.alarm.ALARM_ALERT
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:47:12-51:28
+action#com.icrg.waterfall.alarm.ALARM_ALERT
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:48:18-80
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:48:26-77
+action#alarm_killed
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:49:7-45
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:49:15-42
+action#cancel_snooze
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:50:8-47
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:50:16-44
+service#com.icrg.waterfall.alarm.AlarmKlaxon
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:54:9-58:15
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:54:18-69
+intent-filter#action:name:com.icrg.waterfall.alarm.ALARM_ALERT
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:55:4-57:21
+receiver#com.icrg.waterfall.alarm.AlarmInitReceiver
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:60:9-67:14
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:60:19-76
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCALE_CHANGED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:61:10-66:26
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:62:11-73
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:62:19-70
+action#android.intent.action.TIME_SET
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:63:11-67
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:63:19-64
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:64:11-75
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:64:19-72
+action#android.intent.action.LOCALE_CHANGED
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:65:11-73
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:65:19-70
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:71:5-81
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:71:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:72:5-68
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:72:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:73:4-65
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:73:21-62
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:74:4-72
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:74:21-69
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:75:4-74
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:75:21-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:76:4-74
+	android:name
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:76:21-71
+uses-sdk
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:78:5-42
+INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:78:5-42
+INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:78:5-42
+INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:78:5-42
+INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:78:5-42
+	android:targetSdkVersion
+		INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:78:5-42
+		INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:78:15-40
+		INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:79:5-83:41
+	android:largeScreens
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:81:14-41
+	android:smallScreens
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:82:14-41
+	android:normalScreens
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:80:14-42
+	android:anyDensity
+		ADDED from /Users/koteswara/Desktop/downloadedzipapp/WaterFall_Pro/app/src/main/AndroidManifest.xml:83:14-39

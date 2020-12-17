@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"         
+    >  
+			    
+          <SeekBar
+          android:id="@+id/ambience_slider_settings"
+          android:layout_width="150dp"
+          android:layout_height="30dp"          
+          android:thumb="@drawable/slider"  
+          android:background="@drawable/slider_bg"
+          android:progressDrawable="@drawable/seekbar_background" 
+          android:layout_gravity="center"		                
+          android:max="100"
+          android:thumbOffset="-105dp" 
+          android:layout_centerHorizontal="true"                      
+          />    
+	
+		    
+</RelativeLayout>

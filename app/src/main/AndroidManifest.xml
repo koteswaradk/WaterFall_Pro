@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+      package="com.icrg.waterfall" 
+      android:installLocation="auto"
+      android:versionCode="1"
+      android:versionName="1.0" >
+    <application android:icon="@drawable/icon" android:label="@string/app_label">
+    
+        <activity android:name=".SplashScreen"
+                  android:label="@string/app_label" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".FeelIt" android:screenOrientation="portrait"></activity>
+        <activity android:name=".LoadingScreen" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Help" android:screenOrientation="portrait"></activity>
+        <activity android:name=".FullVersion" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Settings" android:screenOrientation="portrait"></activity>
+        <activity android:name=".MoreApps" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ClockThemes" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Save" android:screenOrientation="portrait"></activity>
+        <service android:name="DefaultSound"></service>
+        <service android:name="BinauralService"></service>
+        
+        <activity android:name=".MainPage" android:screenOrientation="portrait">
+         <intent-filter>
+	         <action android:name="com.droidnova.android.splashscreen.MyAppWaterfall" />
+	         <category android:name="android.intent.category.DEFAULT" />
+	     </intent-filter>
+	    </activity>
+	    
+	    <provider android:name="com.icrg.waterfall.alarm.AlarmProvider" android:authorities="com.icrg.waterfall.alarm" />
+	    <provider android:name="com.icrg.waterfall.SaveProvider" android:authorities="com.icrg.waterfall" />
+	    <activity android:name="com.icrg.waterfall.alarm.AlarmClock" android:screenOrientation="portrait" ></activity>
+	    <activity android:name="com.icrg.waterfall.alarm.AnalogClockTime" android:screenOrientation="portrait"></activity>
+	    <activity android:name="com.icrg.waterfall.alarm.SettingsActivity" android:label="@string/settings" android:screenOrientation="portrait"/>          
+        
+        <activity android:name="com.icrg.waterfall.alarm.SetAlarm" android:label="@string/set_alarm"  android:screenOrientation="portrait"/> 
+        <activity android:name="com.icrg.waterfall.alarm.AlarmAlert" android:excludeFromRecents="true" android:theme="@style/alarm_alert" android:launchMode="singleInstance" android:taskAffinity="" android:screenOrientation="portrait" />
+        
+        <activity android:name="com.icrg.waterfall.alarm.AlarmAlertFullScreen" android:excludeFromRecents="true"  android:launchMode="singleInstance" android:taskAffinity=""  android:screenOrientation="portrait"/> 
+        <activity android:name="com.icrg.waterfall.alarm.ClockPicker" android:screenOrientation="portrait"/> 
+        <receiver android:name="com.icrg.waterfall.alarm.AlarmReceiver">
+           <intent-filter>
+                 <action android:name="com.icrg.waterfall.alarm.ALARM_ALERT" /> 
+ 				 <action android:name="alarm_killed" /> 
+  				 <action android:name="cancel_snooze" /> 
+           </intent-filter>
+        </receiver> 
+        
+        <service android:name="com.icrg.waterfall.alarm.AlarmKlaxon">
+ 		<intent-filter>
+ 		 	<action android:name="com.icrg.waterfall.alarm.ALARM_ALERT" /> 
+  		</intent-filter>
+  		</service>
+        
+        <receiver android:name="com.icrg.waterfall.alarm.AlarmInitReceiver">
+        	<intent-filter>
+		        <action android:name="android.intent.action.BOOT_COMPLETED" /> 
+		        <action android:name="android.intent.action.TIME_SET" /> 
+		        <action android:name="android.intent.action.TIMEZONE_CHANGED" /> 
+		        <action android:name="android.intent.action.LOCALE_CHANGED" /> 
+        	</intent-filter>
+  </receiver> 
+
+    </application>
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> 
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> 
+  	<uses-permission android:name="android.permission.VIBRATE" /> 
+  	<uses-permission android:name="android.permission.WRITE_SETTINGS" /> 
+  	<uses-permission android:name="android.permission.DISABLE_KEYGUARD" /> 
+  	<uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
+    
+    <uses-sdk android:minSdkVersion="8"/>
+    <supports-screens 
+             android:normalScreens="true" 
+             android:largeScreens="true" 
+             android:smallScreens="true" 
+             android:anyDensity="true"/> 
+
+</manifest> 

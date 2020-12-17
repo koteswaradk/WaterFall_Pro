@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/homescreen_bg_new"
+  >  
+  
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="120dp"
+    android:layout_marginLeft="10dp"
+    >
+  
+  
+		  <ImageButton
+		    android:id="@+id/moreapps"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/more_apps_over_new"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginLeft="5dp"
+		    />
+		    
+		    <ImageButton
+		    android:id="@+id/help"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/help_over_new"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginLeft="5dp"
+		    />  
+		    
+		    <ImageButton
+		    android:id="@+id/settings"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/setting_over_new"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginLeft="5dp"
+		    />
+		    
+		    <ImageButton
+		    android:id="@+id/full_version"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/full_version_over_new"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginLeft="5dp"
+		    />	     
+    
+    </LinearLayout>
+    
+    <ImageButton
+		    android:id="@+id/feelit"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/feelit_new"
+		    android:layout_alignParentBottom="true"	
+		    android:layout_marginBottom="10dp"    	    
+		    />
+    
+</RelativeLayout>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:background="@drawable/bg"   
+    >    
+    
+    <ScrollView    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"       
+    android:scrollbars="none"      
+    >
+    
+    
+    
+ <LinearLayout   
+  android:layout_width="wrap_content"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:gravity="bottom"  
+  android:layout_gravity="center_horizontal"
+  android:layout_marginTop="0dp" 
+  android:layout_marginBottom="0dp" 
+  >  
+  
+  
+  <LinearLayout
+    android:id="@+id/Ambience_control"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_bg"
+    android:layout_gravity="center_horizontal|center"
+    android:gravity="center" 
+    >
+    
+		    <LinearLayout
+		       android:layout_width="fill_parent"
+		       android:layout_height="wrap_content"
+		       android:orientation="horizontal"
+		       android:layout_gravity="top|center"
+		       android:gravity="center"
+		       >
+		    
+		      <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Ambience"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:gravity="center"
+		        android:textSize="20sp"
+		        android:layout_marginTop="05dp"
+		        android:layout_marginLeft="15dp"
+		        />
+		  
+			  <ImageButton
+			    android:id="@+id/ambience_settings_onoff"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"    
+			    android:background="@drawable/on_image"	 
+			    android:layout_marginTop="05dp"  
+			    android:layout_marginLeft="05dp"    
+			    />
+			    
+			    </LinearLayout>
+			    
+		          <SeekBar
+		          android:id="@+id/ambience_slider_settings"
+		          android:layout_width="150dp"
+		          android:layout_height="25dp"          
+		          android:thumb="@drawable/slider"  
+		          android:background="@drawable/slider_bg_small"
+		          android:progressDrawable="@drawable/seekbar_background" 
+		          android:layout_gravity="center"		                
+		          android:max="100"		           
+		          android:progress="25" 
+		          android:paddingLeft="10dp" 
+	          	  android:paddingRight="10dp" 		                    
+		          />
+		    
+	</LinearLayout>
+		    
+		    
+	<LinearLayout
+    android:id="@+id/Instrumental_control"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_bg"
+    android:layout_gravity="center_horizontal|center"
+    >
+    
+		    <LinearLayout
+		       android:layout_width="fill_parent"
+		       android:layout_height="wrap_content"
+		       android:orientation="horizontal"
+		       android:layout_gravity="top|center_horizontal"
+		       >
+		    
+		      <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Instrumental"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:gravity="center"
+		        android:textSize="19sp"
+		        android:layout_marginTop="23dp"
+		        android:layout_marginLeft="15dp"
+		        />
+		  
+			  <ImageButton
+			    android:id="@+id/instrumental_settings_onoff"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"    
+			    android:background="@drawable/on_image"	 
+			    android:layout_marginTop="20dp" 
+			    android:layout_marginLeft="1dp"     
+			    />
+			    
+			    </LinearLayout>
+			    
+			    <SeekBar
+		          android:id="@+id/instrumental_slider_settings"
+		          android:layout_width="150dp"
+		          android:layout_height="25dp"          
+		          android:thumb="@drawable/slider"  
+		          android:background="@drawable/slider_bg_small"
+		          android:progressDrawable="@drawable/seekbar_background" 
+		          android:layout_gravity="center"		                
+		          android:max="100"   
+		          android:paddingLeft="10dp" 
+	              android:paddingRight="10dp"
+		          android:progress="25"              
+		          />
+		    
+	</LinearLayout>	   
+	
+	<LinearLayout
+    android:id="@+id/waterl_control"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_bg"
+    android:layout_gravity="center_horizontal|center"
+    >
+    
+		    <LinearLayout
+		       android:layout_width="fill_parent"
+		       android:layout_height="wrap_content"
+		       android:orientation="horizontal"		      
+		       android:layout_gravity="top|center_horizontal"
+		       >
+		    
+		      <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Water"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:gravity="center"
+		        android:textSize="20sp"
+		        android:layout_marginTop="23dp"
+		        android:layout_marginLeft="55dp"
+		        />
+		  
+			  <ImageButton
+			    android:id="@+id/water_settings_onoff"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"    
+			    android:background="@drawable/on_image"	 
+			    android:layout_marginTop="20dp" 
+			    android:layout_marginLeft="20dp"      
+			    />
+			    
+			    </LinearLayout>
+			    
+			    <SeekBar
+		          android:id="@+id/water_slider_settings"
+		          android:layout_width="150dp"
+		          android:layout_height="25dp"          
+		          android:thumb="@drawable/slider"  
+		          android:background="@drawable/slider_bg_small"
+		          android:progressDrawable="@drawable/seekbar_background" 
+		          android:layout_gravity="center"		                 
+		          android:max="100" 
+		          android:paddingLeft="10dp" 
+	              android:paddingRight="10dp" 
+		          android:progress="25"                
+		          />
+		    
+	</LinearLayout>
+	
+	<LinearLayout
+    android:id="@+id/binaural_control"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_bg"
+    android:layout_gravity="center_horizontal|center"
+    >
+    
+		    <LinearLayout
+		       android:layout_width="fill_parent"
+		       android:layout_height="wrap_content"
+		       android:orientation="horizontal"		       
+		       android:layout_gravity="top|center_horizontal"
+		       >
+		    
+		      <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Binaural"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:gravity="center"
+		        android:textSize="20sp"
+		        android:layout_marginTop="23dp"
+		        android:layout_marginLeft="35dp"
+		        />
+		  
+			  <ImageButton
+			    android:id="@+id/binaural_settings_onoff"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"    
+			    android:background="@drawable/on_image"	 
+			    android:layout_marginTop="20dp"
+			    android:layout_marginLeft="15dp"      
+			    />
+			    
+			    </LinearLayout>
+			    
+			    <SeekBar
+		          android:id="@+id/binaural_slider_settings"
+		          android:layout_width="150dp"
+		          android:layout_height="25dp"          
+		          android:thumb="@drawable/slider"  
+		          android:background="@drawable/slider_bg_small"
+		          android:progressDrawable="@drawable/seekbar_background" 
+		          android:layout_gravity="center"		               
+		          android:max="100" 
+		          android:paddingLeft="10dp" 
+	              android:paddingRight="10dp"
+		          android:progress="25"                
+		          />
+		    
+	</LinearLayout>	
+	
+	<LinearLayout
+    android:id="@+id/Stop_clock_control"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_bg"
+    android:layout_gravity="center_horizontal|center"
+    >
+    
+		    <LinearLayout
+		       android:layout_width="fill_parent"
+		       android:layout_height="wrap_content"
+		       android:orientation="horizontal"		       
+		       android:layout_gravity="top|center_horizontal"
+		       >
+		    
+		      <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Stop clock"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:gravity="center"
+		        android:textSize="20sp"
+		        android:layout_marginTop="33dp"
+		        android:layout_marginLeft="25dp"
+		        />
+		        
+		        <FrameLayout
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:layout_marginTop="33dp"
+			      android:layout_marginLeft="15dp"
+		          >
+		  
+				  <ImageButton
+				    android:id="@+id/stopclock_settings"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"    
+				    android:background="@drawable/d_clock_bg"			          
+				    />
+				    <LinearLayout
+				      android:orientation="horizontal"				      
+				      android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:gravity="center"
+				      android:layout_gravity="center"
+				      >
+				    <TextView android:id="@+id/stopclock_time" android:text="MM:SS" android:textStyle="bold" android:textSize="15dp" android:textColor="#ff9000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				    
+				    </LinearLayout>
+			    </FrameLayout>
+			    
+			    </LinearLayout>
+			    
+			    
+		    
+	</LinearLayout>
+	
+	<LinearLayout
+    android:id="@+id/Slideshow_control"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_bg"
+    android:layout_gravity="center_horizontal|center"
+    >
+    
+		    <LinearLayout
+		       android:layout_width="fill_parent"
+		       android:layout_height="wrap_content"
+		       android:orientation="horizontal"		       	
+		       android:layout_gravity="top|center_horizontal"	           
+		       >
+		    
+		      <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Slideshow"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:gravity="center"
+		        android:textSize="20sp"
+		        android:layout_marginTop="33dp"
+		        android:layout_marginLeft="25dp"
+		        />
+		        
+		        <FrameLayout
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:layout_marginTop="33dp"
+			      android:layout_marginLeft="15dp"
+		          >
+		  
+				  <ImageButton
+				    android:id="@+id/slideshow_settings"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"    
+				    android:background="@drawable/d_clock_bg"				    			         
+			       />
+				    <LinearLayout
+				      android:orientation="horizontal"				      
+				      android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:gravity="center"
+				      android:layout_gravity="center"
+				      >
+				    <TextView android:id="@+id/slideshow_time" android:text="MM:SS" android:textStyle="bold" android:textSize="15dp" android:textColor="#ff9000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				    
+				    </LinearLayout>
+			    </FrameLayout>
+		  
+			  
+			    
+			    </LinearLayout>
+			    
+			    
+		    
+	</LinearLayout>	
+	
+	<RelativeLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  >
+	
+	    <ImageButton
+			    android:id="@+id/Alarm"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"    
+			    android:background="@drawable/button_bg"			    
+			    android:layout_gravity="center_horizontal|center"			         
+			    />
+			    
+		<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Alarm"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:gravity="center"
+		        android:textSize="20sp"
+		        android:layout_centerInParent="true"	        
+		        />	    
+			    
+     </RelativeLayout>	
+     		    
+      <RelativeLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  >
+	
+	    <ImageButton
+			    android:id="@+id/Clock_themes"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"    
+			    android:background="@drawable/button_bg"			    
+			    android:layout_gravity="center_horizontal|center"			         
+			    />
+			    
+		<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Clock Themes"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:gravity="center"
+		        android:textSize="20sp"
+		        android:layout_centerInParent="true"	        
+		        />	    
+			    
+     </RelativeLayout>
+			    
+        <!--<RelativeLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  >
+	
+	    <ImageButton
+			    android:id="@+id/Music_library"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"    
+			    android:background="@drawable/button_bg"			    
+			    android:layout_gravity="center_horizontal|center"			         
+			    />
+			    
+		<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Music Library"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:gravity="center"
+		        android:textSize="22sp"
+		        android:layout_centerInParent="true"	        
+		        />	    
+			    
+     </RelativeLayout>
+    
+         
+    
+  		 
+--></LinearLayout>
+
+</ScrollView>
+
+		</RelativeLayout>
